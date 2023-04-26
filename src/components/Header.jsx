@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <header className='md:flex hidden px-12 lg:px-28 justify-between items-center h-[10vh] w-full '>
         <div className='flex z-10'>
-            <h1 className='text-xl font-extrabold text-white cursor-pointer bounce pulse'><a href="/">Naama</a><span className='  text-orange-500'>.</span></h1>
+            <h1 className='text-xl font-extrabold text-white cursor-pointer bounce '><a href="/">Naama</a><span className='  text-orange-500'>.</span></h1>
         </div>
         <div>
             <ul className='flex gap-6 transition-all duration-100 bounce '>

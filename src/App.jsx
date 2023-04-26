@@ -6,6 +6,7 @@ import Projectslider from './components/Projectslider'
 import Skillspage from './components/Skillspage'
 import Snow from './components/Snow'
 import Studiespage from './components/Studiespage'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Studiespage/>
       <Projectslider/>
       <Contactpage/>
+      <Footer/>
     </div>
   )
 }

@@ -294,3 +294,27 @@ h1 {
 .pulse3 {
   animation: pulse3 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+
+.pictureblur{
+  box-shadow: 0 0 10px #AE67FA;
+  
+}
+.pictureblur2{
+  box-shadow: 0 0 10px #81AFDD;
+  
+}
+
+
+@keyframes pulsechange {
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+
+}
+.pulsechange {
+  animation: pulsechange 2s cubic-bezier(0.4, 0, 0.6, 1);
+}
