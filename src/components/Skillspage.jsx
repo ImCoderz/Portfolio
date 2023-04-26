@@ -4,7 +4,7 @@ import Bare from './Bare'
 const Skillspage = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-32  '>
-        <div className='flex flex-col w-[390px] sm:w-[60vw] h-fit gap-6 bg-blue1color rounded-lg lg:pl-20 lg:py-24 md:pl-12 md:py-16 py-12 pl-8 relative'>
+        <div className='flex flex-col w-[380px] sm:w-[60vw] h-fit gap-6 bg-blue1color rounded-lg lg:pl-20 lg:py-24 md:pl-12 md:py-16 py-12 pl-8 relative'>
             <div className='absolute top-4 left-4'>
                 <div className=' w-10 h-1 bg_gradient'/>
                 <h1 id='Skills' className='md:text-2xl text-[16px] font-bold text-white pulse3 '>Skills</h1>
