@@ -35,7 +35,7 @@ const Homepage = () => {
     }
 
     return (
-        <div className='sm:px-28 px-0 md:px-12 md:mt-20 mt-16 grid md:grid-cols-2 grid-col-1 md:gap-6 gap-20 place-items-center'>
+        <div className='sm:px-28 px-0 md:px-12 md:mt-20 mt-5 grid md:grid-cols-2 grid-col-1 md:gap-6 gap-20 place-items-center'>
             <div className='relative items-center flex flex-col gap-3 animate-slideleft'>
                 <div>
                     <h1 id='Home' className='gradient text-center lg:w-[250px] w-[220px] lg:text-xl text-lg font-bold'>Hi! I’m <br/> Abderrahmane Naama <br /> <span className='text-sm'>a software engineer student</span>.</h1>
