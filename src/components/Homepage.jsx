@@ -50,7 +50,7 @@ const Homepage = () => {
             
             <div className=' grid relative place-items-center md:ml-12 animate-slideright transition-shadow duration-100'>
                 <div className={`lg:w-[70px] w-[55px] lg:h-[70px] h-[55px] rounded-full bg-purple2color absolute lg:-right-4 md:flex hidden lg:-top-10 -right-4 -top-8  spin`}>
-                    <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full ' src={List[0]} alt="" />
+                    <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full ' src={List[6]} alt="" />
                 </div>
                 <div className={`lg:w-[70px] w-[55px] lg:h-[70px] h-[55px] rounded-full bg-purple2color absolute lg:right-32 md:flex hidden lg:-top-20 right-32 -top-16  spin`}>
                     <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full ' src={List[1]} alt="" />
