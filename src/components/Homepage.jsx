@@ -59,7 +59,7 @@ const Homepage = () => {
                     <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full ' src={List[2]} alt="" />
                 </div>
                 <div className={` lg:w-[300px] lg:h-[300px] w-[270px] h-[270px] rounded-full bg-purple2color  z-10 animate-slowfade`}>
-                    <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full' src={List[1]} alt="" />
+                    <img className='object-cover pictureblur flex justify-center items-center rounded-full w-full h-full' src={List[0]} alt="" />
                 </div>
                 <div className='w-[370px] h-[370px] rounded-full absolute top-8 right-[-18px] blurpurple'></div>
                 <div className={`lg:w-[70px] w-[55px] lg:h-[70px] h-[55px] rounded-full bg-purple2color absolute lg:-left-24 md:flex hidden lg:top-32 -left-16 top-32  spin`}>
