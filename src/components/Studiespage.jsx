@@ -2,12 +2,15 @@ import React from 'react'
 import Card from './Card'
 import Bare from './Bare'
 import Snow from './Snow'
-import basics from '../assets/basics.jpg'
+import basics from '../assets/basics.png'
 import css from '../assets/css.webp'
-import react from '../assets/react.jpeg'
-import database from '../assets/database.jpeg'
-import spring from '../assets/spring.jpeg'
+import react from '../assets/react.png'
+import database from '../assets/database.png'
+import spring from '../assets/spring.png'
+import git from '../assets/git.png'
+import testing from '../assets/testing.png'
 import node from '../assets/node.png'
+import java from '../assets/java.png'
 
 const Studiespage = () => {
   return (
@@ -25,9 +28,9 @@ const Studiespage = () => {
         </div>
         <h1  className='text-lg font-bold text-white text-center '>Software Engineering</h1>
         <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 place-items-center transition-all animate-slideup duration-100'>
-            <Card/>
-            <Card/>
-            <Card/>
+            <Card picture={java} title={"Java"}/>
+            <Card picture={git} title={"GIT, GITHUB"}/>
+            <Card picture={testing} title={"Test"}/>
         </div>
         <div className='w-[500px] h-[500px] rounded-full absolute blurpurple md:left-[360px] left-32 top-32  '></div>
       </div>

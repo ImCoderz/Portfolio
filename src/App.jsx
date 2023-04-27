@@ -11,14 +11,14 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className=' bg-bgcolor min-h-[100vh] overflow-hidden '>
+    <div className=' bg-bgcolor min-h-[100vh] w-screen overflow-x-hidden'>
       <Snow/>
       <Header/>
       <Homepage/>
       <Skillspage/>
       <Studiespage/>
       <Projectslider/>
-      <Contactpage/>
+      {/* <Contactpage/> */}
       <Footer/>
     </div>
   )

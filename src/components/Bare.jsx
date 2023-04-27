@@ -3,7 +3,7 @@ import React from 'react'
 const bare = ({p,h3}) => {
   return (
     <div className='flex justify-center items-center mt-10 transition-all duration-100 bounce'>
-        <div className='bare_gradient w-[60vw] h-fit flex p-5 justify-between md:flex-row flex-col'>
+        <div className='bare_gradient md:w-[60vw] w-[80vw] h-fit flex p-5 justify-between md:flex-row flex-col'>
             <div className='flex flex-col'>
                 <p className='md:text-xs text-[10px]  font-thin '>{p}</p>
                 <h3 className='lg:text-lg text-[14px] font-bold '>{h3}</h3>

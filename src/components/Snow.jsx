@@ -2,7 +2,7 @@ import React from 'react'
 
 const Snow = () => {
   return (
-        <div className='absolute top-0 right-0 w-full h-full'>
+        <div className='absolute top-0 right-0 w-full h-full overflow-hidden'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
             <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
             <g id="snow-bottom-layer">
