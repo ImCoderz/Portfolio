@@ -16,7 +16,7 @@ import Card2 from './Card2'
 const Studiespage = () => {
   return (
     <div> 
-      <div className=' flex flex-col lg:px-40 px-28 mt-20 gap-4 relative'>
+      <div className=' flex flex-col lg:px-40 px-8 mt-20 gap-4 relative'>
         <h1 id='Studies' className='text-2xl font-bold text-white text-center pulse3'>Studies</h1>
         <h1  className='text-lg font-bold text-white text-center mt-6 '>Web Development</h1>
         <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 place-items-center transition-all animate-slideup duration-100'>
