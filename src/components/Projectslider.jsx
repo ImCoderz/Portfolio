@@ -1,4 +1,8 @@
 import React from 'react'
+import ilab from '../assets/ilab.png'
+import cas from '../assets/cas.png'
+import portfolio from '../assets/portfolio.png'
+import sushi from '../assets/sushi.png'
 //import './swiper.scss'
 import Project from './Project'
 // Import Swiper React components
@@ -34,12 +38,12 @@ const Projectslider = () => {
         }}
 
       >
-          <SwiperSlide><Project title={"Portfolio"} description={"Description"}/></SwiperSlide>
-          <SwiperSlide><Project title={"Reservation Restaurant"} description={"Description"}/></SwiperSlide>
-          <SwiperSlide><Project title={"CAS INPT"} description={"Description"}/></SwiperSlide>
-          <SwiperSlide><Project title={"ILAB Donation"} description={"Description"}/></SwiperSlide>
-          <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide>
-          <SwiperSlide><Project title={"Reservation Terrain"} description={"Description"}/></SwiperSlide>
+          <SwiperSlide><Project title={"CAS INPT"} description={"Description"} picture={cas}/></SwiperSlide>
+          <SwiperSlide><Project title={"ILAB Donation"} description={"Description"} picture={ilab}/></SwiperSlide>
+          <SwiperSlide><Project title={"Reservation Restaurant"} description={"Description"} picture={sushi}/></SwiperSlide>
+          <SwiperSlide><Project title={"Portfolio"} description={"Description"} picture={portfolio} /></SwiperSlide>
+          {/* <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide> */}
+          {/* <SwiperSlide><Project title={"Reservation Terrain"} description={"Description"}/></SwiperSlide> */}
       </Swiper>
       
     </div>
