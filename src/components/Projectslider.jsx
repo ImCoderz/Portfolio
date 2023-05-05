@@ -19,7 +19,7 @@ const Projectslider = () => {
   
   return (
     <div>
-      <div className='w-full h-fit lg:px-52 px-[5vw]  mt-20 gap-5'>
+      <div className='w-full  lg:px-52 px-[5vw]  mt-20 gap-5'>
         <h1 className='text-white text-2xl font-bold text-center pulse3' id='Projects'>Projects</h1>
         <Swiper
         spaceBetween={50}
@@ -38,10 +38,13 @@ const Projectslider = () => {
         }}
 
       >
-          <SwiperSlide><Project title={"CAS INPT"} description={"Description"} picture={cas} link={"https://github.com/ImCoderz/casInpt"}/></SwiperSlide>
-          <SwiperSlide><Project title={"ILAB Donation"} description={"Description"} picture={ilab} link={"https://github.com/ImCoderz/pfa"}/></SwiperSlide>
-          <SwiperSlide><Project title={"Reservation Restaurant"} description={"Description"} picture={sushi} link={"https://github.com/ImCoderz/web"}/></SwiperSlide>
-          <SwiperSlide><Project title={"Portfolio"} description={"Description"} picture={portfolio} link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
+          <SwiperSlide><Project title={"CAS INPT"} description={"This project is for a club at my school that helps people in need. My team and I started from scratch with our own design, using Figma to respect the UX/UI criteria. We then developed the project using React.js, Tailwind CSS, and Firebase."} host={"https://casinptt.web.app/"}  picture={cas} link={"https://github.com/ImCoderz/casInpt"}/></SwiperSlide>
+          
+          <SwiperSlide><Project title={"ILAB Donation"} description={"This project is for an association that gathers clothes, money, machines, and other resources for people in need. It uses the principle of double authentication, one for the donator and one for the needy, where each specifies what to give (donator) and what to take (needy). After designing it with Figma, we developed it using React.js, Tailwind CSS, Spring Boot, and MySQL."} host={"https://ilabassociation.vercel.app/"}  picture={ilab} link={"https://github.com/ImCoderz/pfa"}/></SwiperSlide>
+          
+          <SwiperSlide><Project title={"Reservation Restaurant"} description={"This is one of my first projects where users can authenticate and make a reservation for a specific time at our restaurant. It also includes a burger builder feature. For technologies, I used pure JavaScript and CSS."} picture={sushi} link={"https://github.com/ImCoderz/web"}/></SwiperSlide>
+          
+          <SwiperSlide><Project title={"Portfolio"} description={"This is my first portfolio, and I started it from scratch. I first designed it using Figma and chose the appropriate color scheme and project. After that, I developed it using React.js and Tailwind CSS."} picture={portfolio} host={"https://abdonaama.vercel.app/"}  link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
           {/* <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide> */}
           {/* <SwiperSlide><Project title={"Reservation Terrain"} description={"Description"}/></SwiperSlide> */}
       </Swiper>
