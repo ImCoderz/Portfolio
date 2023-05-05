@@ -38,16 +38,16 @@ const Projectslider = () => {
         }}
 
       >
-          <SwiperSlide><Project title={"CAS INPT"} description={"Description"} picture={cas}/></SwiperSlide>
-          <SwiperSlide><Project title={"ILAB Donation"} description={"Description"} picture={ilab}/></SwiperSlide>
-          <SwiperSlide><Project title={"Reservation Restaurant"} description={"Description"} picture={sushi}/></SwiperSlide>
-          <SwiperSlide><Project title={"Portfolio"} description={"Description"} picture={portfolio} /></SwiperSlide>
+          <SwiperSlide><Project title={"CAS INPT"} description={"Description"} picture={cas} link={"https://github.com/ImCoderz/casInpt"}/></SwiperSlide>
+          <SwiperSlide><Project title={"ILAB Donation"} description={"Description"} picture={ilab} link={"https://github.com/ImCoderz/pfa"}/></SwiperSlide>
+          <SwiperSlide><Project title={"Reservation Restaurant"} description={"Description"} picture={sushi} link={"https://github.com/ImCoderz/web"}/></SwiperSlide>
+          <SwiperSlide><Project title={"Portfolio"} description={"Description"} picture={portfolio} link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
           {/* <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide> */}
           {/* <SwiperSlide><Project title={"Reservation Terrain"} description={"Description"}/></SwiperSlide> */}
       </Swiper>
       
     </div>
-    <Bare p={'Visit My GITHUB'} h3={"Click on the button to acces to all my project"}/>
+    <Bare p={'Visit My GITHUB'} h3={"Click on the button to acces to all my project"} link={"https://github.com/ImCoderz"}/>
     </div>
     
   )
