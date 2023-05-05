@@ -44,7 +44,7 @@ const Projectslider = () => {
           
           <SwiperSlide><Project title={"Reservation Restaurant"} description={"This is one of my first projects where users can authenticate and make a reservation for a specific time at our restaurant. It also includes a burger builder feature. For technologies, I used pure JavaScript and CSS."} picture={sushi} link={"https://github.com/ImCoderz/web"}/></SwiperSlide>
           
-          <SwiperSlide><Project title={"Portfolio"} description={"This is my first portfolio, and I started it from scratch. I first designed it using Figma and chose the appropriate color scheme and project. After that, I developed it using React.js and Tailwind CSS."} picture={portfolio} host={"https://abdonaama.vercel.app/"}  link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
+          <SwiperSlide><Project title={"Portfolio"} description={"This is my first portfolio, and I started it from scratch. I first designed it using Figma and chose the appropriate color scheme and project. After that, I developed it using React.js and Tailwind CSS."} picture={portfolio}  link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
           {/* <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide> */}
           {/* <SwiperSlide><Project title={"Reservation Terrain"} description={"Description"}/></SwiperSlide> */}
       </Swiper>
