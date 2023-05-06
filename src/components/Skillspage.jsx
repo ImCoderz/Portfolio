@@ -1,6 +1,7 @@
 import React from 'react'
 import Skill from './Skill'
 import Bare from './Bare'
+import dev from '../assets/dev.jpeg'
 const Skillspage = () => {
   return (
     <div className='flex flex-col justify-center items-center md:mt-32 mt-16 '>

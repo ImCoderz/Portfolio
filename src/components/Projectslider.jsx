@@ -3,6 +3,7 @@ import ilab from '../assets/ilab.png'
 import cas from '../assets/cas.png'
 import portfolio from '../assets/portfolio.png'
 import sushi from '../assets/sushi.png'
+import figmapro from '../assets/figmapro.png'
 //import './swiper.scss'
 import Project from './Project'
 // Import Swiper React components
@@ -28,8 +29,8 @@ const Projectslider = () => {
         navigation
         pagination={{ clickable: true }}
 
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
         loop={true}
         centeredSlides={true}
         speed={900}
@@ -43,6 +44,8 @@ const Projectslider = () => {
           <SwiperSlide><Project title={"ILAB Donation"} description={"This project is for an association that gathers clothes, money, machines, and other resources for people in need. It uses the principle of double authentication, one for the donator and one for the needy, where each specifies what to give (donator) and what to take (needy). After designing it with Figma, we developed it using React.js, Tailwind CSS, Spring Boot, and MySQL."} host={"https://ilabassociation.vercel.app/"}  picture={ilab} link={"https://github.com/ImCoderz/pfa"}/></SwiperSlide>
           
           <SwiperSlide><Project title={"Reservation Restaurant"} description={"This is one of my first projects where users can authenticate and make a reservation for a specific time at our restaurant. It also includes a burger builder feature. For technologies, I used pure JavaScript and CSS."} picture={sushi} link={"https://github.com/ImCoderz/web"}/></SwiperSlide>
+          
+          <SwiperSlide><Project title={"Figma Design"} description={"These are some designs that I have created in Figma, which I later developed into good websites."} picture={figmapro} link={"https://www.figma.com/file/3qmTHSOWibu2cUS6am4XvK/Untitled?type=design&node-id=0%3A1&t=q2Zd5rynO8SlKYqh-1"}/></SwiperSlide>
           
           <SwiperSlide><Project title={"Portfolio"} description={"This is my first portfolio, and I started it from scratch. I first designed it using Figma and chose the appropriate color scheme and project. After that, I developed it using React.js and Tailwind CSS."} picture={portfolio}  link={"https://github.com/ImCoderz/Portfolio"}/></SwiperSlide>
           {/* <SwiperSlide><Project title={"Arduino"} description={"Description"}/></SwiperSlide> */}

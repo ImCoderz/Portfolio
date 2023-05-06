@@ -2,10 +2,11 @@ import React from 'react';
 import './Footer.css';
 import logo from '../../assets/A.N.svg'
 import {FaFacebook,FaInstagramSquare,FaLinkedin,FaGoogle} from 'react-icons/fa'
+import Button from '../Download/Button';
 
 export default function Footer() {
   return (
-    <footer id='Ctontact' className='footer'>
+    <footer id='Contact' className='footer'>
         <div className='footer__first'>
             <h1 className='text-xl font-extrabold text-white cursor-pointer bounce '><a href="/">Naama</a><span className='  text-orange-500'>.</span></h1>
             <ul className='flex justify-center gap-6 mt-5 items-center'>
@@ -15,6 +16,7 @@ export default function Footer() {
               <li><a href='mailto:naamaabderrahmane2002@gmail.com' target='_blank'><FaGoogle color='white' size={27}/></a></li>
           </ul>
         </div>
+        <Button/>
         
         <footer className="footer__second">
             <div className="waves">
