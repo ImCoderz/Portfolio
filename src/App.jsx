@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className=' bg-bgcolor min-h-[100vh] w-screen overflow-x-hidden'>
+    <div className=' bg-bgcolor min-h-[100vh] w-screen overflow-hidden'>
       <Snow/>
       <Header/>
       <Homepage/>
