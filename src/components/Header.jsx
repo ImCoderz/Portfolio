@@ -26,7 +26,7 @@ const Header = () => {
             <AiOutlineMenu color='white' size={27} width={100} className=' cursor-pointer' onClick={()=>setMenu(!menu)}/>
         </div>
         {menu&&(
-          <div className='absolute right-5 z-50 top-12 bg-purple2color rounded-xl rotate'>
+          <div className='absolute right-5 px-5 py-2 gap-2 z-50 top-12 bg-purple2color rounded-xl animate-slideright'>
             <ul className='flex flex-col transition-all duration-100 ease-in-out '>
                 <li className='text-m font-normal md:p-2  p-[0.125rem] text-orange-500 cursor-pointer z-10'><a href="#Home">Home</a></li>
                 <li className='text-m font-normal text-white md:p-2 p-[0.125rem] cursor-pointer z-10'><a href="#Skills">Skills</a></li>
