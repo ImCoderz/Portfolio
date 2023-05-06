@@ -4,7 +4,7 @@ import Swiper from 'swiper'
 
 const Project = ({title,description,picture,link,host}) => {
   return (
-    <div className='flex min-h-[550px] pb-10  flex-col items-center justify-center bg-blue1color text-textcolor w-full h-fit mt-8 md:px-20 px-4 py-4 gap-6 animate-slidedown transition-all duration-100'>
+    <div className='flex sm:min-h-[550px] min-h-[460px] pb-10  flex-col items-center justify-center bg-blue1color text-textcolor w-full h-fit mt-8 md:px-20 px-4 py-4 gap-6 animate-slidedown transition-all duration-100'>
         
         <h3 className='text-xl font-bold text-white  top-0 cursor-pointer' >{title}</h3>
         <div className={` md:h-[300px] h-[200px] w-[90%] rounded-2xl  bg-white`}>
