@@ -53,7 +53,7 @@ const Projectslider = () => {
       </Swiper>
       
     </div>
-    <Bare p={'Visit My GITHUB'} h3={"Click on the button to acces to all my project"} link={"https://github.com/ImCoderz"}/>
+    <Bare p={'Visit My GITHUB'} h3={"Click on the button to access all my project"} link={"https://github.com/ImCoderz"}/>
     </div>
     
   )
