@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import mycv from '../../assets/mycveng.pdf'
+import mycv from '../../assets/naamacv.pdf'
 const Button = () => {
     
   return (
     <div className='w-screen justify-center flex mt-5'>
-    <a href={mycv} download="NaamaCV">
+    <a href={mycv} download="naamacv">
         <button
         type="button"
         data-te-ripple-init
